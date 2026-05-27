@@ -1,0 +1,107 @@
+{
+  "NAVBAR": {
+    "CATALOG": "Catalog",
+    "LOGIN": "Log In",
+    "LOGOUT": "Log Out",
+    "SUPPORT": "Support",
+    "HOME": "Home",
+    "MY_PROFILE": "My Profile"
+  },
+  "HOME": {
+    "MAIN": {
+      "TITLE": "Montesco",
+      "SLOGAN": "Design that inspires your home."
+    },
+    "WHO": {
+      "TITLE": "Who we are?",
+      "DESCRIPTION": "We are a platform dedicated to curate the best furniture and decor items at the best market price."
+    },
+    "SLOGANS": {
+      "QUALITY": "Guaranteed Quality",
+      "PRICE": "Best Price",
+      "DESIGN": "Minimalist Design"
+    },
+    "TIMELINE": {
+      "TITLE": "Timeline",
+      "STEP1_TITLE": "Foundation",
+      "STEP1_DESC": "We were born as a small design workshop.",
+      "STEP2_TITLE": "Expansion",
+      "STEP2_DESC": "We launched our first digital platform.",
+      "STEP3_TITLE": "International",
+      "STEP3_DESC": "We started shipping across Latin America.",
+      "STEP4_TITLE": "Today",
+      "STEP4_DESC": "Leaders in minimalist design curation."
+    },
+    "TOP": "Featured Products",
+    "EVENTS": "Important Events",
+    "PAYS": "Payment Methods",
+    "CARROUSEL": {
+      "TITLE": "New Trends 2026",
+      "SUBTITLE": "Explore the collection that is transforming the most exclusive homes."
+    }
+  },
+  "CATALOG": {
+    "TITLE": "Our Catalog",
+    "FILTER": "Filter",
+    "SEARCH": "Search product...",
+    "CONFIRM_ORDER": "Confirm Order",
+    "PAYMENT": "Make Payment"
+  },
+  "SUPPORT": {
+    "TITLE": "Customer Care Center",
+    "CHAT": "Montesco Assistant",
+    "MESSAGE_PLACEHOLDER": "Type your inquiry here...",
+    "SEND": "Send",
+    "SENDING": "Processing...",
+    "WELCOME_MSG": "Hello! I am Montesco's virtual assistant. How can I help you today?",
+    "BOT_HINT": "Try asking about 'payments', 'shipping', or 'help'."
+  },
+  "USER": {
+    "LOGIN_TITLE": "User Access",
+    "SIGNUP_TITLE": "Create Account",
+    "GOOGLE_LOGIN": "Log in with Google",
+    "MAINTENANCE": "Connection not available, under maintenance.",
+    "NO_ACCOUNT": "Don't have an account?",
+    "HAVE_ACCOUNT": "Already have an account?",
+    "SIGNUP_LINK": "Register here",
+    "LOGIN_LINK": "Log in",
+    "REGISTER_BUTTON": "Register",
+    "CONTINUE_WITH": "Continue with"
+  },
+  "FOOTER": {
+    "DESCRIPTION": "Minimalist design for the modern home. Curating the best for your space.",
+    "RIGHTS": "Developed by Ag Studio's 2026. All rights reserved."
+  },
+  "GESTOR": {
+    "TABS": {
+      "INFO": "Information",
+      "SECURITY": "Security",
+      "PAYMENT": "Payment Methods"
+    },
+    "LOGOUT": "Log out from account",
+    "INFO": {
+      "TITLE": "Account Information",
+      "STATUS": "Status: Active",
+      "USERNAME": "Username",
+      "EMAIL": "Registered Email",
+      "ADDRESS": "Shipping Address",
+      "ADDRESS_PH": "Street, City, Province, Zip Code",
+      "PRIVACY_TITLE": "Privacy",
+      "PRIVACY_DESC": "Your information is protected under Montesco standards. Only you can view and edit this data.",
+      "SUBMIT": "Update Profile"
+    },
+    "SECURITY": {
+      "TITLE": "Advanced Security",
+      "TFA_TITLE": "Two-Factor (2FA)",
+      "TFA_DESC": "Protect your account with an additional OTP code.",
+      "TFA_BTN": "Configure OTP",
+      "PWD_TITLE": "Password",
+      "PWD_DESC": "It is recommended to change it every 6 months.",
+      "PWD_BTN": "Change Password"
+    },
+    "PAYMENT": {
+      "TITLE": "Payment Methods",
+      "ADD": "Add Card"
+    }
+  }
+}

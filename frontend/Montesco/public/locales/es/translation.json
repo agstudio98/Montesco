@@ -1,0 +1,107 @@
+{
+  "NAVBAR": {
+    "CATALOG": "Catálogo",
+    "LOGIN": "Iniciar Sesión",
+    "LOGOUT": "Cerrar Sesión",
+    "SUPPORT": "Soporte",
+    "HOME": "Inicio",
+    "MY_PROFILE": "Mi Perfil"
+  },
+  "HOME": {
+    "MAIN": {
+      "TITLE": "Montesco",
+      "SLOGAN": "Diseño que inspira tu hogar."
+    },
+    "WHO": {
+      "TITLE": "¿Quiénes somos?",
+      "DESCRIPTION": "Somos una plataforma dedicada a curar los mejores muebles y artículos de decoración al mejor precio del mercado."
+    },
+    "SLOGANS": {
+      "QUALITY": "Calidad Garantizada",
+      "PRICE": "Mejor Precio",
+      "DESIGN": "Diseño Minimalista"
+    },
+    "TIMELINE": {
+      "TITLE": "Nuestra Historia",
+      "STEP1_TITLE": "Fundación",
+      "STEP1_DESC": "Nacemos como un pequeño taller de diseño.",
+      "STEP2_TITLE": "Expansión",
+      "STEP2_DESC": "Lanzamos nuestra primera plataforma digital.",
+      "STEP3_TITLE": "Internacional",
+      "STEP3_DESC": "Comenzamos envíos a toda Latinoamérica.",
+      "STEP4_TITLE": "Hoy",
+      "STEP4_DESC": "Líderes en curaduría de diseño minimalista."
+    },
+    "TOP": "Productos Destacados",
+    "EVENTS": "Eventos Importantes",
+    "PAYS": "Métodos de Pago",
+    "CARROUSEL": {
+      "TITLE": "Nuevas Tendencias 2026",
+      "SUBTITLE": "Explora la colección que está transformando los hogares más exclusivos."
+    }
+  },
+  "CATALOG": {
+    "TITLE": "Nuestro Catálogo",
+    "FILTER": "Filtrar",
+    "SEARCH": "Buscar producto...",
+    "CONFIRM_ORDER": "Confirmar Pedido",
+    "PAYMENT": "Realizar Pago"
+  },
+  "SUPPORT": {
+    "TITLE": "Centro de Atención",
+    "CHAT": "Asistente Montesco",
+    "MESSAGE_PLACEHOLDER": "Escribe tu consulta aquí...",
+    "SEND": "Enviar",
+    "SENDING": "Procesando...",
+    "WELCOME_MSG": "¡Hola! Soy el asistente virtual de Montesco. ¿En qué puedo ayudarte hoy?",
+    "BOT_HINT": "Prueba preguntando sobre 'pagos', 'envíos' o 'ayuda'."
+  },
+  "USER": {
+    "LOGIN_TITLE": "Acceso de Usuario",
+    "SIGNUP_TITLE": "Crear Cuenta",
+    "GOOGLE_LOGIN": "Entrar con Google",
+    "MAINTENANCE": "Conexión no disponible, en mantenimiento.",
+    "NO_ACCOUNT": "¿No tienes cuenta?",
+    "HAVE_ACCOUNT": "¿Ya tienes cuenta?",
+    "SIGNUP_LINK": "Regístrate aquí",
+    "LOGIN_LINK": "Inicia sesión",
+    "REGISTER_BUTTON": "Registrarse",
+    "CONTINUE_WITH": "O continúa con"
+  },
+  "FOOTER": {
+    "DESCRIPTION": "Diseño minimalista para el hogar moderno. Curando lo mejor para tu espacio.",
+    "RIGHTS": "Desarrollado por Ag Studio's 2026. Todos los derechos reservados."
+  },
+  "GESTOR": {
+    "TABS": {
+      "INFO": "Información",
+      "SECURITY": "Seguridad",
+      "PAYMENT": "Métodos de Pago"
+    },
+    "LOGOUT": "Salir de la cuenta",
+    "INFO": {
+      "TITLE": "Información de Cuenta",
+      "STATUS": "Estado: Activo",
+      "USERNAME": "Nombre de Usuario",
+      "EMAIL": "Email Registrado",
+      "ADDRESS": "Dirección de Envío",
+      "ADDRESS_PH": "Calle, Ciudad, Provincia, Código Postal",
+      "PRIVACY_TITLE": "Privacidad",
+      "PRIVACY_DESC": "Tu información está protegida bajo los estándares de Montesco. Solo tú puedes ver y editar estos datos.",
+      "SUBMIT": "Actualizar Perfil"
+    },
+    "SECURITY": {
+      "TITLE": "Seguridad Avanzada",
+      "TFA_TITLE": "Doble Factor (2FA)",
+      "TFA_DESC": "Protege tu cuenta con un código OTP adicional.",
+      "TFA_BTN": "Configurar OTP",
+      "PWD_TITLE": "Contraseña",
+      "PWD_DESC": "Se recomienda cambiarla cada 6 meses.",
+      "PWD_BTN": "Cambiar Password"
+    },
+    "PAYMENT": {
+      "TITLE": "Métodos de Pago",
+      "ADD": "Añadir Tarjeta"
+    }
+  }
+}
