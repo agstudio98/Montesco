@@ -42,7 +42,7 @@ export const CatalogMain: React.FC = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await fetch('http://localhost:5000/api/products', {
+        const response = await fetch('https://montesco.onrender.com/api/products', {
           headers: { 'Accept-Language': i18n.language }
         });
         
