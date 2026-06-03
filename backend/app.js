@@ -30,6 +30,13 @@ connectDB();
 const app = express();
 
 /**
+ * CONFIGURACIÓN DE PROXY PARA RENDER
+ * Fundamental para que express-rate-limit obtenga la IP real del usuario
+ * y no la del balanceador de carga de Render.
+ */
+app.set('trust proxy', 1);
+
+/**
  * Middlewares de Seguridad y Utilidad
  */
 app.use(helmet()); // Seguridad de encabezados HTTP
@@ -62,11 +69,13 @@ const allowedOrigins = [
   'http://127.0.0.1:5173',
   'http://[::1]:5173',
   'http://localhost:5174',
-  'http://localhost:3000'
-];
+  'http://localhost:3000',
+  'https://montesco.onrender.com'
+].filter(Boolean); // Filtra valores nulos/indefinidos si la variable no está seteada
 
 app.use(cors({
   origin: (origin, callback) => {
+    // Permite peticiones sin origen (como herramientas de postman/servidor a servidor)
     if (!origin || allowedOrigins.includes(origin)) {
       callback(null, true);
     } else {
@@ -112,9 +121,22 @@ const server = app.listen(PORT, '0.0.0.0', () => {
   console.log(`[MODO] ${process.env.NODE_ENV}`);
 });
 
-// Manejo de cierres limpios y errores no capturados
+/**
+ * GRACEFUL SHUTDOWN (Apagado Limpio)
+ */
+
+// Manejo de cierres limpios enviados por Render (SIGTERM)
+process.on('SIGTERM', () => {
+  console.log('Señal recibida de Render. Apagando servidor Montesco de forma elegante...');
+  server.close(() => {
+    console.log(' Cerrado.');
+    process.exit(0);
+  });
+});
+
+// Manejo de errores no capturados
 process.on('unhandledRejection', (err) => {
-  console.error('[UNHANDLED REJECTION] 💥 Cerrando servidor...');
+  console.error('Cerrando servidor...');
   console.error(err.name, err.message);
   server.close(() => {
     process.exit(1);
