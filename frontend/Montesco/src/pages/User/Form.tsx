@@ -38,11 +38,11 @@ export const UserForm: React.FC = () => {
     setLoading(true);
     setError(null);
 
-    const endpoint = isLogin ? '/api/users/login' : '/api/users';
+    const endpoint = isLogin ? '/users/login' : '/users';
     const body = isLogin ? { email, password } : { name, email, password };
 
     try {
-      const response = await fetch(`https://montesco.onrender.com${endpoint}`, {
+      const response = await fetch(`${import.meta.env.VITE_API_URL}${endpoint}`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

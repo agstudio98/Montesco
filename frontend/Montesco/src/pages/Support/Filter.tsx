@@ -26,7 +26,7 @@ export const SupportFilter: React.FC = () => {
     if (!user) return;
     setLoading(true);
     try {
-      const response = await fetch(`https://montesco.onrender.com/api/support/claims/${user._id}`);
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/support/claims/${user._id}`);
       const data = await response.json();
       // Estructura refactorizada: { status, results, data }
       if (response.ok) {

@@ -62,7 +62,7 @@ export const SupportChat: React.FC = () => {
     setIsSending(true);
 
     try {
-      const response = await fetch('https://montesco.onrender.com/api/support/chat', {
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/support/chat`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

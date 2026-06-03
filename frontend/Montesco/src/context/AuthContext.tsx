@@ -154,7 +154,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     if (!user) return;
 
     try {
-      const response = await fetch('https://montesco.onrender.com/api/users/profile', {
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/users/profile`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
